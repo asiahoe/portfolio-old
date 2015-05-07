@@ -1,0 +1,39 @@
+table {
+  @include font-feature-settings("kern","liga","tnum");
+  border-collapse: collapse;
+  margin: ($base-spacing / 2) 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead {
+  background-color: $base-accent-color;
+  color: #fff;
+
+  th {
+    border-color: darken($base-accent-color, 10);
+  }
+}
+
+tbody {
+  th {
+    background-color: lighten($base-accent-color, 50);
+  }
+}
+
+th {
+  font-weight: bold;
+  padding: ($base-spacing / 2);
+  text-align: left;
+}
+
+td {
+  padding: ($base-spacing / 2);
+}
+
+tr,
+td,
+th {
+  border: $base-border;
+  vertical-align: middle;
+}

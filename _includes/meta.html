@@ -1,0 +1,13 @@
+<header>
+  <h2>{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}</h2>
+  <ul>
+  {% for tag in page.tags %}
+    <li>{{ tag }}</li>
+  {% endfor %}
+  </ul>
+  <img src="{{ page.thumbnail }}" alt="{{ page.title }}">
+  {% if page.live-url %}
+  <p class="live"><a href="{{ page.live-url }}"><i class="fa fa-desktop fa-fw"></i> View Live</a> {% if page.repository %}<a href="{{ page.repository }}"><i class="fa fa-github-alt fa-fw"></i> GitHub Repo</a>{% endif %}</p>
+  {% endif %}
+  {% if page.excerpt %}<p>{{ page.excerpt }}</p>{% endif %}
+</header>

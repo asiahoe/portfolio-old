@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% if page.title == "Home" %}
+  <title>{{ site.name }}</title>
+  {% else %}
+  <title>{{ page.title }} &mdash; {{ site.name }}</title>
+  {% endif %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% include seo.html %}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+
+{% include fonts.html %}
+
+  <link href="/assets/img/favicon.ico?v=2" rel="icon">
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+      <div class="container">
+        <h1 class="identity"><a href="/">Asia Hoe</a></h1>
+        <nav>
+          {% include navigation.html %}
+        </nav>
+      </div>
+    </header>
+    <main>

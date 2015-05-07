@@ -1,0 +1,18 @@
+@import "../neat/neat-helpers"; // or "../neat/neat-helpers" when not in Rails
+
+// Neat Overrides
+// $column: 90px;
+// $gutter: 40px;
+// $grid-columns: 12;
+$max-width: em(1200);
+
+// Neat Breakpoint
+// Default setting included ems for global automatic conversion.
+// Change to px for use with media-query splitting and local conversion.
+// Splitting solves the overlapping omega issue, no omega reset needed.
+
+$medium-screen: 640px;
+$large-screen: 860px;
+
+$medium-screen-up: new-breakpoint(min-width em($medium-screen) max-width em($large-screen));
+$large-screen-up: new-breakpoint(min-width em($large-screen + 1));

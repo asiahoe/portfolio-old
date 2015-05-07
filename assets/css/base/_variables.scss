@@ -1,0 +1,70 @@
+// Typography
+$sans-serif: $helvetica;
+$serif: $georgia;
+$light: "Open Sans", "Lato", "Roboto", "Century Gothic", $sans-serif;
+$base-font-family: $light;
+$header-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: $base-font-size * 2.5;
+$h2-font-size: $base-font-size * 2.25;
+$h3-font-size: $base-font-size * 2;
+$h4-font-size: $base-font-size * 1.75;
+$h5-font-size: $base-font-size * 1.5;
+$h6-font-size: $base-font-size * 1.25;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.75;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Colors
+$blue: #477DCA;
+$dark-gray: #555;
+$dribbble-pink: #EA4C89;
+$github-blue: #4183C4;
+$medium-gray: #AAA;
+$light-gray: #DDD;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+$linkedin-blue: #0077B5;
+$twitter-blue: #55ACEE;
+
+// Background Color
+$base-background-color: #FFF;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$base-accent-color: #3F51B5;
+
+// Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 10);
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+// Flash Colors
+$alert-color: $light-yellow;
+$error-color: $light-red;
+$notice-color: lighten($base-accent-color, 40);
+$success-color: $light-green;
+
+// Border color
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;
