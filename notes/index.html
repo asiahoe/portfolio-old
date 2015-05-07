@@ -1,0 +1,15 @@
+---
+layout: default
+title: Notes
+type: notes
+---
+
+<h2>Notes</h2>
+
+<ul>
+  {% for post in site.categories['notes'] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
