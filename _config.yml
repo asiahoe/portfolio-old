@@ -1,0 +1,29 @@
+# Meta Data
+name: "Asia Hoe, Product Designer, NYC"
+description: "Asia Hoe is an NYC Product Designer specializing in UX/UI Design and Front-End Development."
+url: http://asiahoe.com/
+
+# Conversion
+highlighter: pygments
+lineanchors: true
+markdown: redcarpet-pygments
+
+# Outputs
+paginate: 10
+permalink: /:categories/:title/
+timezone: America/New York
+
+include: [
+  '.htaccess'
+]
+
+# Inputs
+
+exclude: [
+  '*.scss',
+  'archive',
+  'planning',
+  'Gemfile',
+  'Gemfile.lock',
+  'README.md'
+]
