@@ -2123,9 +2123,6 @@ main {
         width: 65.88078%; }
         .bio .intro:last-child {
           margin-right: 0; } }
-  @media screen and (min-width: 860px) {
-    .bio {
-      padding: 0 3.236em 1.618em; } }
   .bio img {
     display: none; }
     @media screen and (min-width: 640px) {

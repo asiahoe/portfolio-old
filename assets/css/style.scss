@@ -96,10 +96,6 @@ main {
     }
   }
 
-  @include media($large-screen) {
-    @include pad(0 $gutter*2 $gutter);
-  }
-
   img {
     display: none;
 
