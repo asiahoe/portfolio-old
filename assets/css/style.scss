@@ -286,7 +286,8 @@ article {
     }
 
     img {
-      margin-bottom: $gutter/2;
+      display: block;
+      margin: 0 auto $gutter;
     }
 
     p {

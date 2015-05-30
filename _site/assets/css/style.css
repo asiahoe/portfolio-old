@@ -2278,7 +2278,8 @@ article header ul {
       article header ul li {
         font-size: 1.25em; } }
 article header img {
-  margin-bottom: 0.809em; }
+  display: block;
+  margin: 0 auto 1.618em; }
 article header p {
   clear: both; }
 article header .live a {
