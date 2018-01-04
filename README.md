@@ -4,6 +4,10 @@ This repository will include all versions of my portfolio, both past and present
 
 ## Changelog
 
+### 3.0
+
+I'm currently working on the next iteration of the site, starting from the ground up. I'd also like to refactor the setup of this repository, but it's going to take some brushing up of my knowledge of git to make it happen. It may even require a new repository altogether. Stay tuned!
+
 ### 2.0
 
 After months of freelancing and agonizing over my portfolio, I finally launched it on Wednesday, May 6.
@@ -40,4 +44,6 @@ Updated header image and edited promo copy.
 
 # Contact
 
-Interested in working together on a project? Please send all inquiries to [hello@asiahoe.com](mailto:coding@asiahoe.com?subject="Let's Collaborate!").
+Interested in working together on a project? Unfortunately, I'm not looking for collaboraters or new opportunities at this time.
+
+I welcome any questions or feedback. Please send all inquiries via the [contact form](http://asiahoe.com/about/contact/). 
