@@ -9,5 +9,8 @@
   {% if page.live-url %}
   <p class="live"><a href="{{ page.live-url }}"><i class="fa fa-desktop fa-fw"></i> View Live</a> {% if page.repository %}<a href="{{ page.repository }}"><i class="fa fa-github-alt fa-fw"></i> GitHub Repo</a>{% endif %} {% if page.prototype %}<a href="{{ page.repository }}"><i class="fa fa-users fa-fw"></i> Interactive Prototype</a>{% endif %}</p>
   {% endif %}
+  {% if page.prototype-iphone %}
+  <p class="live"><a href="{{ page.prototype-iphone }}"><i class="fa fa-apple fa-fw"></i> iPhone Prototype</a> {% if page.prototype-ipad %}<a href="{{ page.prototype-ipad }}"><i class="fa fa-tablet fa-fw"></i> iPad Prototype</a>{% endif %} {% if page.prototype-android %}<a href="{{ page.prototype-android }}"><i class="fa fa-android fa-fw"></i> Android Prototype</a>{% endif %}</p>
+  {% endif %}
   {% if page.excerpt %}<p>{{ page.excerpt }}</p>{% endif %}
 </header>
