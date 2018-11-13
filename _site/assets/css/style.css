@@ -115,6 +115,10 @@ blockquote {
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
+figcaption {
+  color: #959595;
+  font-style: italic; }
+
 cite {
   color: #959595;
   font-style: italic; }
@@ -2264,7 +2268,11 @@ article h4 {
   article h4 {
     font-size: 1.75em; }
   article p {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+  article section ul {
+    font-size: 1.25em;
+    list-style: square;
+    margin-left: 1.618em; } }
 @media screen and (min-width: 860px) {
   article header, article section {
     padding: 0 9.708em; } }

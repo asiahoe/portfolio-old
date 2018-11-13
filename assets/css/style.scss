@@ -262,6 +262,14 @@ article {
     p {
       font-size: $h6-font-size;
     }
+
+    section {
+      ul {
+        font-size: $h6-font-size;
+        list-style: square;
+        margin-left: $gutter;
+      }
+    }
   }
 
   header, section {

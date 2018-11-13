@@ -89,6 +89,11 @@ blockquote {
   padding-left: $base-spacing / 2;
 }
 
+figcaption {
+  color: lighten($base-font-color, 25);
+  font-style: italic;
+}
+
 cite {
   color: lighten($base-font-color, 25);
   font-style: italic;
