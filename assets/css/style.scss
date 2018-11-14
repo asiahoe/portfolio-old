@@ -109,8 +109,9 @@ main {
 
 .bio a, .live a {
   @extend button;
-  @include span-columns(6);
+  @include span-columns(12);
   @include transition(background-color 1.0s ease);
+  margin-bottom: $gutter;
   text-align: center;
 
   @include media($medium-screen) {
@@ -300,10 +301,6 @@ article {
 
     p {
       clear: both;
-    }
-
-    .live a {
-      margin-bottom: $gutter;
     }
   }
 

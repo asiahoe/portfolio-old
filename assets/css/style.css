@@ -2144,10 +2144,11 @@ main {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
+  width: 100%;
   -webkit-transition: background-color 1s ease;
   -moz-transition: background-color 1s ease;
   transition: background-color 1s ease;
+  margin-bottom: 1.618em;
   text-align: center; }
   .bio a:last-child, .live a:last-child {
     margin-right: 0; }
@@ -2290,8 +2291,6 @@ article header img {
   margin: 0 auto 1.618em; }
 article header p {
   clear: both; }
-article header .live a {
-  margin-bottom: 1.618em; }
 article section img {
   padding: 1.618em;
   background-color: #f7f7f7;
@@ -2407,5 +2406,3 @@ footer {
       color: #55ACEE; }
     footer li.twitter a:hover {
       color: #1689e0; }
-
-/*# sourceMappingURL=style.css.map */
