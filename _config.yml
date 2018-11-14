@@ -23,6 +23,7 @@ srcset:
 # Inputs
 
 exclude: [
+  '.sass-cache',
   '*.scss',
   'archive',
   'planning',
