@@ -5,3 +5,4 @@ _twitter.yml
 *.map
 *.sketch
 archive/1.1/**
+.jekyll-metadata
