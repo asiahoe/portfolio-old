@@ -5,7 +5,7 @@ title: Home
       <header class="bio">
         <img src="assets/img/asia-metis.jpg" alt="Asia Hoe">
         <div class="intro">
-          <p>I am a purpose driven Digital Product Designer specializing in user experience design, user research, and front-end development. A perpetual scholar and avid gamer, I love leveling up my skills across design and development. When I'm not designing and writing code, I enjoy speaking, writing, drawing, and giving back to organizations that help pave the way for the next generation.</p>
+          <p>I am a purpose driven Digital Product Designer specializing in user experience design, user research, and front-end development. A perpetual scholar and avid gamer, I love leveling up my skills across design and development. When I'm not designing and writing code, I enjoy speaking, writing, drawing, and giving back to organizations that pave the way for the next generation.</p>
           <p>I am currently looking for new opportunities.</p>
           <p><a href="/about/contact/">Contact Me</a> <a href="/assets/docs/AsiaHoe-ProductDesigner-Resume.pdf" target="_blank">Résumé</a></p>
         </div>
@@ -15,7 +15,7 @@ title: Home
         <ul class="work-items">
         {% for post in site.categories['works'] limit:6 %}
           <li>
-            <a href="{{ post.url }}">{% image_tag src=post.thumbnail width="425" alt=post.title %}</a>
+            <a href="{{ post.url }}">{% image_tag src=post.thumbnail width="500" alt=post.title %}</a>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <ul>
             {% for tag in post.tags %}
