@@ -1,7 +1,0 @@
-[02-Dec-2013 23:47:41 Europe/London] PHP Fatal error:  Class 'Walker' not found in /home/asiahoec/public_html/wp/wp-includes/nav-menu-template.php on line 17
-[02-Dec-2013 23:47:43 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/asiahoec/public_html/wp/wp-includes/author-template.php on line 453
-[02-Dec-2013 23:47:45 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/asiahoec/public_html/wp/wp-includes/general-template.php on line 1334
-[12-Mar-2014 01:37:36 Europe/London] PHP Fatal error:  Class 'Walker' not found in /home/asiahoec/public_html/wp/wp-includes/nav-menu-template.php on line 17
-[12-Mar-2014 01:37:38 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/asiahoec/public_html/wp/wp-includes/author-template.php on line 453
-[07-Aug-2014 15:18:14 Europe/London] PHP Fatal error:  Class 'Walker' not found in /home/asiahoec/public_html/wp/wp-includes/nav-menu-template.php on line 16
-[07-Aug-2014 15:18:16 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/asiahoec/public_html/wp/wp-includes/author-template.php on line 459
