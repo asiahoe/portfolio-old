@@ -1,0 +1,67 @@
+/* General Styles */
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-top: 10px solid rgba(121, 75, 196, 0.5);
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  margin: 0 auto;
+  padding: 0 3vh;
+  font-size: 1em;
+}
+
+
+@media only screen and (min-width: 767px) {
+  body {
+    font-size: 1.25em;
+    height: calc(100vh - 10px);
+    padding: 0 20vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    padding: 0 25vh;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    padding: 0 40vh;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-style: normal;
+}
+
+ul {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2em 2em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited, a:focus, a:hover, a:active {
+  background-color: rgba(121, 75, 196, 0.25);
+  color: #000;
+  text-decoration: none;
+}
